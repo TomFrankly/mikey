@@ -1,0 +1,10 @@
+doctype html
+html
+  head
+    title YouTube Transcriber
+  body
+    h1 Welcome to the YouTube Transcriber
+    form(action="/transcribe" method="POST")
+      label(for="youtubeUrl") YouTube Video URL
+      input#youtubeUrl(type="url" name="youtubeUrl" required)
+      button(type="submit") Transcribe

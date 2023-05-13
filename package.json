@@ -1,0 +1,19 @@
+{
+  "name": "youtube-transcriber",
+  "version": "1.0.0",
+  "description": "Mikey is a simple app that transcribes YouTube videos and sends the transcript off to a webhook URL. Useful for comboing with Pipedream in order to build YouTube summarization workflows.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  }
+}
